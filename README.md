@@ -82,9 +82,8 @@ masternode outputs
 You'll see something like this:
 
 ```
-"TX_ID": "VOUT"
-
-"f5d4ec12b6ab68977eed84913255ea6685110e5f781e5e525a12bc2fd1c6b9d": "1"
+"txhash" : "f90eaujc198869319fd2f0ed30c8e3b681d49bc1ebf3108baa2d12b69dc11ae6",
+"outputidx" : 0
 ```
 
 The first part is your TX_ID - the second part is your VOUT.
