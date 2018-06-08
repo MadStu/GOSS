@@ -29,7 +29,7 @@ RPCU=$(pwgen -1 4 -n)
 PASS=$(pwgen -1 14 -n)
 EXIP=$(curl ipinfo.io/ip)
 
-printf "rpcuser=rpc$RPCU\nrpcpassword=$PASS\nrpcport=22122\nrpcthreads=8\nrpcallowip=127.0.0.1\nbind=$EXIP:22122\nmaxconnections=32\ngen=0\nexternalip=$EXIP\ndaemon=1\n\n" > ~/.gossipcoin/gossipcoin.conf
+printf "rpcuser=rpc$RPCU\nrpcpassword=$PASS\nrpcport=22123\nrpcthreads=8\nrpcallowip=127.0.0.1\nbind=$EXIP:22122\nmaxconnections=32\ngen=0\nexternalip=$EXIP\ndaemon=1\n\n" > ~/.gossipcoin/gossipcoin.conf
 
 ~/gossipcoin/gossipcoind -daemon
 sleep 20
