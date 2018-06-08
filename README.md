@@ -111,7 +111,7 @@ After the script has finished running, you can verify this yourself by typing:
 ~/gossipcoin/gossipcoin-cli mnsync status
 ```
 
-Once you see it says AssetID: 999 THEN you can Start Alias on your windows wallet.
+Once you see it says RequestedMasternodeAssets: 999 THEN you can Start Alias on your windows wallet.
 
 Start it by going to the masternode tab, right clicking on your masternode and choosing to "Start Alias".
 
