@@ -12,7 +12,7 @@ echo "blah" > getgossinfo.json
 
 THISHOST=$(hostname -f)
 
-sudo apt-get install jq pwgen bc -y
+sudo apt-get install jq pwgen bc zip -y
 
 #killall gossipcoind
 #rm -rf gossipcoin*
